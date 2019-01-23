@@ -8,12 +8,12 @@ Author URI: https://www.nullacht15.com
 
 // If this file is called directly, abort.
 if (!defined('ABSPATH')) {
-	exit;
+  exit;
 }
 
 
 function na15_insertHeaderInfo() {
-  echo '<!--
+  echo "\n\t" . '<!--
 	Internetagentur nullacht15 GmbH, Heidelberg . www.nullacht15.com
 	-->' . "\n";
 }
